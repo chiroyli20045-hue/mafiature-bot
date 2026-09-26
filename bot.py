@@ -15,9 +15,9 @@ from aiogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMar
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv("BOT_TOKEN", "")
+TOKEN = os.getenv("8806109047:AAFKjSODQ_OohTO0TjnRDIngnSdsnZeBjQs", "")
 DB_PATH = os.getenv("DB_PATH", "mafia.sqlite3")
-ADMIN_IDS = {int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x.strip().isdigit()}
+ADMIN_IDS = {int(x) for x in os.getenv("7531136266", "").split(",") if x.strip().isdigit()}
 
 logging.basicConfig(level=logging.INFO)
 router = Router()
